@@ -14,15 +14,14 @@ const GlobalStyles = createGlobalStyle`
   img {
     max-width: 100%;
   }
-
-  a:visited {
-    color: initial;
-  }
-
+  
   a:hover, button:hover {
     cursor: pointer;
   }
   
+  body {
+    font-family: 'helvetica neue', sans-serif;
+  }
 `
 
 export default GlobalStyles
