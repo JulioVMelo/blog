@@ -22,6 +22,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: 'helvetica neue', sans-serif;
   }
+  
   li {
     list-style: none;
   }
