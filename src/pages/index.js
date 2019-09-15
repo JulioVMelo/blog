@@ -6,7 +6,14 @@ import PostItem from '../components/PostItem'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <PostItem />
+    <PostItem 
+      slug="teste"
+      title="teste"
+      description="teste"
+      background="purple"
+      category="teste"
+      date="10 do 10 de 2010"
+      timeToRead="10"   />
   </Layout>
 )
 
