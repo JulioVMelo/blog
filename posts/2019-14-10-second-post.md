@@ -1,9 +1,9 @@
 ---
 title: Second post
 description: description of my second post
-date: 2019-15-10 19:57:00
+date: 2019-5-20 19:57:00
 category: Test
-background: "#72cb12"
+background: "purple"
 ---
 
 # título de teste
