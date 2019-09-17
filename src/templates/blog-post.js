@@ -1,19 +1,19 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 
-const BlogPost = ({data}) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark
 
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: post.html}}></div>
+      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
     </>
   )
 }
 
 export const query = graphql`
   query Post($slug: String!) {
-      markdownRemark(fields: {slug: {eq: $slug}}) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
       }
@@ -22,4 +22,4 @@ export const query = graphql`
   }
 `
 
-export default BolgPost
+export default BlogPost
