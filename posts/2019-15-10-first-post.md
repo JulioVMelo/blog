@@ -14,6 +14,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem turpis, rhon
 
 In hac habitasse platea dictumst. Pellentesque ultrices mollis mollis. Aenean pulvinar orci mi, at semper est placerat eu. Vestibulum fermentum lectus id enim mollis volutpat. In in cursus elit. Donec efficitur felis at pulvinar hendrerit. Morbi quis mollis sem, ac lobortis massa. Ut auctor augue vehicula lectus scelerisque, et laoreet libero cursus. In eleifend nibh nec neque ullamcorper pretium. Etiam blandit nibh in nunc lacinia imperdiet. Mauris fermentum hendrerit lectus, vel tristique nunc posuere mattis. Duis non gravida urna. Vivamus interdum sed urna nec blandit. Ut ornare nulla nec lectus ultricies luctus. Mauris auctor nisi id orci facilisis, in commodo dui lobortis. Nulla justo justo, consequat eu pretium nec, interdum et neque.
 
+```jsx
+const Button = () => <button>Salvar</button>
+```
+
 ![Paisagem](/assets/img/paisagem.jpg)
 
 Nulla sodales egestas massa at scelerisque. Morbi efficitur eros sit amet egestas malesuada. Morbi euismod, nisl vel fermentum tempus, purus metus rutrum arcu, sit amet luctus arcu ipsum ac urna. Donec vel ex a ex tempus ultricies. Etiam volutpat gravida tellus, ut vestibulum tellus fringilla sed. Sed molestie efficitur laoreet. Integer risus orci, ornare sed diam at, condimentum blandit felis. Suspendisse blandit arcu et eros rutrum, id dignissim ex varius. Integer sem mauris, porta et aliquam vitae, maximus pretium dolor. Donec magna mi, laoreet sit amet nisl nec, pretium maximus odio.
