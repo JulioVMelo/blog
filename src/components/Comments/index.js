@@ -2,7 +2,6 @@ import React from 'react'
 import * as S from './styles'
 import ReactDisqusComments from 'react-disqus-comments'
 import PropTypes from 'prop-types'
-import * as S from './styles'
 
 const Comments = ({ url, title }) => {
   const completeURL = `https://juliovilar.com.br${url}`

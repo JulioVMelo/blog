@@ -10,13 +10,14 @@ const postsQuery = `
           slug
         }
         frontmatter {
+          background
           category
-          date_timestamp
+          date_timestamp: date
           date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
           description
           title
         }
-        excerpt(pruneLenght: 5000)
+        excerpt(pruneLength: 5000)
       }
     }
   }
@@ -32,10 +33,12 @@ const flatten = arr =>
 const queries = [
   {
     query: postsQuery,
-    transformer: ({ data }) => data.allSitePage.edges.map(({ node }) => node),
-    indexName: 'Posts',
+    transformer: ({ data }) => flatten(data.posts.edges),
+    indexName: 'posts',
     settings: {
       attributesToSnippet: ['excerpt:20'],
     },
   },
 ]
+
+module.exports = queries
