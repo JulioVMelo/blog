@@ -26,16 +26,16 @@ const GlobalStyles = createGlobalStyle`
   body.dark {
     --borders: #38444d;
     --texts: #8899a6;
-    --postColor: #fff;
+    --postColor: #1fa1f2;
     --highlight: #1fa1f2;
     --mediumBackground: #192734;
     --background: #16202c;
     --white: #fff;
-    --black: #222;
+    --black: #fff;
   }
   body.light {
     --borders: #dedede;
-    --postColor: #111;
+    --postColor: #1fa1f2;
     --texts: #555555;
     --highlight: #1fa1f2;
     --mediumBackground: #f0f0f3;
