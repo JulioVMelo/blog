@@ -9,6 +9,7 @@ module.exports = {
     author: `@juliovmelo`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
