@@ -7,7 +7,7 @@ module.exports = {
     position: `Front-end`,
     description: `Site pessoal para publicação de artigos e divulgação de projetos`,
     author: `@juliovmelo`,
-    siteUrl: `https://juliovmelo.com.br`,
+    siteUrl: `blogjuliovmelo.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
